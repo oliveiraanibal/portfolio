@@ -177,7 +177,7 @@ p.case-intro {
 }
 
 #context {
-    margin-bottom: 2.5rem;
+    margin-bottom: 3.5rem;
 }
 
 .section-title {
@@ -228,6 +228,7 @@ h2.section-title {
     padding-bottom: .5em;
     line-height: 1.5em;
 }
+
 .case-section ul li:last-child {
     padding-bottom: 0
 }
@@ -719,14 +720,42 @@ p.getintouch {
     margin: 1.25rem auto 3rem;
     width: fit-content;
 }
+
 .img-container img {
     margin: 0;
     width: auto;
     max-width: 100%;
 }
 
+#projects h2 {
+    margin-bottom: 3rem;
+}
 
+.project-details img {
+    width: 400px;
+    float: left;
+    margin-right: 30px;
+    margin-top: 13px;
+}
+.project-details {
+    margin-bottom: 3.5rem;
+    overflow: hidden;
+}
+.project-details h3 {
+    margin: 0 0;
+}
 
+.project-details img {
+    width: 400px;
+    float: left;
+    margin-right: 30px;
+    margin-top: 0px;
+}
+
+p.project-intro {
+    margin-top: 0;
+    margin-bottom: 4rem;
+}
 
 
 
