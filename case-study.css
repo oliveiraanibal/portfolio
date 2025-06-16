@@ -576,6 +576,16 @@ h3.contribution-title {
     margin-top: 2rem;
 }
 
+
+
+.continenteCS .metrics-grid {
+    margin:2.5rem 0 3rem;
+}
+.continenteCS .takeaways-content {
+    grid-template-columns: auto auto ;
+    margin: 0 0 5.5rem;
+}
+
 .takeaway-item {
     background: #f6eff9;
     border-left: 4px solid #9b59b6;
