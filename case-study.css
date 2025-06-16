@@ -579,11 +579,11 @@ h3.contribution-title {
 
 
 .continenteCS .metrics-grid {
-    margin:2.5rem 0 3rem;
+    margin:2rem 0 2.5rem;
 }
 .continenteCS .takeaways-content {
     grid-template-columns: auto auto ;
-    margin: 0 0 5.5rem;
+    margin: 0 0 5rem;
 }
 
 .takeaway-item {
