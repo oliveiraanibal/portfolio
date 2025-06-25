@@ -1,3 +1,11 @@
+
+    const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+if (isSafari) {
+  document.body.classList.add('safari');
+}
+
+
+
 // Portfolio filtering functionality
 document.addEventListener('DOMContentLoaded', function () {
     const filterTags = document.querySelectorAll('.filter-tag');
@@ -54,4 +62,5 @@ document.addEventListener('DOMContentLoaded', function () {
             heroSection.style.transform = `translateY(${scrolled * 0.5}px)`;
         }
     });
+
 });
