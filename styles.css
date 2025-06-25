@@ -271,8 +271,8 @@ strong {
 .about-certifications-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    row-gap: 3rem;
     gap: 2.5rem;
+    row-gap: 3rem;
     margin-top: 2.5rem;
 }
 
@@ -283,6 +283,10 @@ strong {
 
 .about-certification {
     margin: 0;
+}
+
+.about-certification h5 {
+    margin: .1em 0 .3em;
 }
 
 .about-certification img {
@@ -299,17 +303,18 @@ strong {
 }
 
 .about-content {
-    max-width: 850px;
+    max-width: 1120px;
     margin: 0 auto;
     padding: 1rem 0 0 0;
 }
 
 .about-text {
+    max-width: 770px;
     font-size: 1.1rem;
     line-height: 1.8;
     color: #555;
     text-align: left;
-    margin-bottom: 2.5rem;
+    margin:0 auto 2.5rem;
 }
 
 .about-text p {
