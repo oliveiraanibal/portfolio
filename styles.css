@@ -308,13 +308,13 @@ strong {
 }
 
 .about-content {
-    max-width: 1120px;
+    max-width: 830px;
     margin: 0 auto;
     padding: 1rem 0 0 0;
 }
 
 .about-text {
-    max-width: 770px;
+    /*max-width: 770px;*/
     font-size: 1.1rem;
     line-height: 1.8;
     color: #555;
