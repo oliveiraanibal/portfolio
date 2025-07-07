@@ -115,7 +115,7 @@ strong {
 .page-subtitle {
     font-size: 1.2rem;
     opacity: 0.9;
-    max-width: 600px;
+    max-width: 650px;
     margin: 0 auto;
     opacity: 0;
     animation: fadeInUp 0.8s ease 0.2s forwards;
@@ -308,7 +308,7 @@ strong {
 }
 
 .about-content {
-    max-width: 850px;
+    max-width: 860px;
     margin: 0 auto;
     padding: 1rem 0 0 0;
 }
