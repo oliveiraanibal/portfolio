@@ -468,7 +468,7 @@ h2.section-title {
 
 .career .when {
     font-size: .9rem;
-    font-weight: 600;
+    font-weight: 400;
     color: #7f8c8d;
     font-variant-numeric: tabular-nums;
     padding-top: .15rem;
@@ -554,4 +554,16 @@ h2.section-title {
         padding: 3rem 1rem;
         background-position: 30% center;
     }
+}
+
+/* About hero titles in the header's typeface (SUSE, light) */
+.about-hero .page-title {
+    font-family: 'SUSE', sans-serif;
+    font-weight: 200;
+}
+
+.about-hero .page-subtitle {
+    font-family: 'SUSE', sans-serif;
+    font-weight: 300;
+    font-size: 1.35rem;
 }
