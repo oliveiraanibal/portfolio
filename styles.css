@@ -514,3 +514,26 @@ h2.section-title {
         gap: .3rem;
     }
 }
+
+/* About hero: LinkedIn banner artwork, dark text for contrast */
+.hero-section.about-hero {
+    background: #eef3fb url('imgs/about-hero.png') center / cover no-repeat;
+    color: #2c3e50;
+    padding: 4.5rem 0;
+}
+
+.about-hero .page-subtitle {
+    color: #4a5568;
+}
+
+.about-hero .page-title,
+.about-hero .page-subtitle {
+    text-shadow: 0 0 18px rgba(255, 255, 255, .9);
+}
+
+@media (max-width: 768px) {
+    .hero-section.about-hero {
+        padding: 3rem 1rem;
+        background-position: 30% center;
+    }
+}
