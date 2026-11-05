@@ -861,3 +861,11 @@ p.project-intro {
         justify-content: center;
     }
 }
+.laptopbg9 {
+    position: relative;
+    width: 768px;
+    height: 438px;
+    overflow: hidden;
+    padding: 17px 84px 0;
+    background-image: url('imgs/laptop9.png');
+}
