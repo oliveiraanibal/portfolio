@@ -579,3 +579,52 @@ h2.section-title {
     font-weight: 300;
     font-size: 1.35rem;
 }
+
+/* Home intro, above the filters */
+.home-intro {
+    text-align: center;
+    margin: 132px auto 2.25rem;
+    max-width: 1060px;
+    padding: 1rem 0 0;
+}
+
+.home-intro-title {
+    font-family: 'SUSE', sans-serif;
+    font-weight: 300;
+    font-size: 2.3rem;
+    line-height: 1.25;
+    letter-spacing: -0.01em;
+    margin: 0 0 .6rem;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.home-intro-text {
+    font-family: 'SUSE', sans-serif;
+    font-weight: 300;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    color: #5f6b7a;
+    margin: 0;
+}
+
+.home-intro + .filter-section {
+    margin-top: 0;
+}
+
+@media (max-width: 768px) {
+    .home-intro {
+        margin-top: 170px;
+        padding: 0 .5rem;
+    }
+
+    .home-intro-title {
+        font-size: 1.65rem;
+    }
+
+    .home-intro-text {
+        font-size: 1.05rem;
+    }
+}
