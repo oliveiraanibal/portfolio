@@ -337,28 +337,40 @@ h2.section-title {
 }
 
 
-/* Footer */
+/* Footer: LinkedIn banner artwork, cropped to the original footer height */
 .footer {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
-    padding: 2rem 0;
+    background: #eef3fb url('imgs/about-hero.png') center 85% / cover no-repeat;
+    color: #2c3e50;
+    height: 96px;
+    padding: 0;
     margin-top: 2.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.footer .container {
+    width: 100%;
 }
 
 .footer-content {
-    text-align: center;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 
 .linkedin-link {
-    color: white;
+    font-family: 'SUSE', sans-serif;
+    font-size: 1.15rem;
+    font-weight: 400;
+    color: #5a4fb0;
+    text-decoration: none;
+    text-shadow: 0 0 14px rgba(255, 255, 255, .9);
     transition: color 0.3s ease;
 }
 
 .linkedin-link:hover {
-    color: #3498db;
+    color: #667eea;
+    text-decoration: underline;
 }
 
 /* Animations */
