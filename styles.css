@@ -582,31 +582,27 @@ h2.section-title {
 
 /* Home intro, above the filters */
 .home-intro {
-    text-align: center;
-    margin: 132px auto 2.25rem;
-    max-width: 1060px;
-    padding: 1rem 0 0;
+    text-align: left;
+    margin: 112px 0 2rem;
+    padding: 0;
 }
 
 .home-intro-title {
     font-family: 'SUSE', sans-serif;
     font-weight: 300;
-    font-size: 2.3rem;
+    font-size: 1.8rem;
     line-height: 1.25;
     letter-spacing: -0.01em;
-    margin: 0 0 .6rem;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
+    color: #3a3f47;
+    margin: 0 0 .4rem;
 }
 
 .home-intro-text {
     font-family: 'SUSE', sans-serif;
     font-weight: 300;
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     line-height: 1.5;
-    color: #5f6b7a;
+    color: #6b7380;
     margin: 0;
 }
 
@@ -616,15 +612,14 @@ h2.section-title {
 
 @media (max-width: 768px) {
     .home-intro {
-        margin-top: 170px;
-        padding: 0 .5rem;
+        margin-top: 150px;
     }
 
     .home-intro-title {
-        font-size: 1.65rem;
+        font-size: 1.45rem;
     }
 
     .home-intro-text {
-        font-size: 1.05rem;
+        font-size: 1rem;
     }
 }
