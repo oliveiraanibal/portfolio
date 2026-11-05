@@ -469,7 +469,7 @@ h2.section-title {
 .career .when {
     font-size: .9rem;
     font-weight: 600;
-    color: #667eea;
+    color: #7f8c8d;
     font-variant-numeric: tabular-nums;
     padding-top: .15rem;
 }
@@ -519,14 +519,32 @@ h2.section-title {
 .hero-section.about-hero {
     background: #eef3fb url('imgs/about-hero.png') center / cover no-repeat;
     color: #2c3e50;
-    padding: 4.5rem 0;
+    padding: 4.5rem 1rem;
+    text-align: left;
+}
+
+/* Line the hero text up with the about text column below */
+.about-hero .page-title,
+.about-hero .page-subtitle {
+    max-width: 840px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-hero .page-title {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    width: fit-content;
+    margin-left: max(0px, calc((100% - 840px) / 2));
 }
 
 .about-hero .page-subtitle {
-    color: #4a5568;
+    color: #5a4fb0;
+    font-weight: 500;
 }
 
-.about-hero .page-title,
 .about-hero .page-subtitle {
     text-shadow: 0 0 18px rgba(255, 255, 255, .9);
 }
