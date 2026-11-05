@@ -48,7 +48,7 @@
                 <li><a href="#discovery" class="side-nav-link">Discovery & Key Insights</a></li>
                 <li><a href="#delivery" class="side-nav-link">Design & Delivery</a></li>
                 <li><a href="#impact" class="side-nav-link">Achievements & Impact</a></li>
-                <li><a href="#takeaways" class="side-nav-link">Key Takeaway</a></li>
+                <li><a href="#takeaways" class="side-nav-link">Key Takeaways</a></li>
             </ul>
         </nav>
 
@@ -56,20 +56,19 @@
             <section id="start" class="case-section case-hero">
                 <div class="case-hero-content">
                     <h1 class="case-title">Feedzai RiskOps Studio</h1>
-                    <h2 class="case-subtitle">Self-service onboarding for fraud prevention</h2>
+                    <h2 class="case-subtitle">Self-service onboarding and activation journeys</h2>
                 </div>
 
                 <!-- VIDEO -->
-                <div class="case-hero-image laptopbg2">
-                    <video controls muted autoplay loop playsinline style="width: 600px;" poster="imgs/fz0.png">
+                <div class="case-hero-image laptopbg6">
+                    <video controls muted autoplay loop playsinline style="width: 600px; height: 338px; object-fit: contain; background: #000;" poster="imgs/fz0.png">
                         <source src="imgs/fz-hero.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
                 </div>
 
-                <p class="takeaway-item case-intro">Taking a bank from a signed contract to a working setup on
-                    TFB Growth, a new self-service tier of Feedzai's fraud-prevention platform, without the emails
-                    and calls it used to take.</p>
+                <p class="takeaway-item case-intro">Guiding new clients to set up Feedzai's Transaction Fraud for Banking
+                    solution, through a new self-service onboarding and activation journey.</p>
             </section>
 
             <section id="context" class="case-section">
@@ -78,8 +77,8 @@
                 <div class="contribution-area">
                     <p>Feedzai builds fraud and anti-money-laundering software for banks. RiskOps Studio is its
                         unified platform, gradually replacing the separate Fraud, AML and Identity applications. In 2026
-                        Feedzai was preparing TFB Growth, a lighter, self-service entry tier of Transaction Fraud for
-                        Banking, due by the end of Q2. I joined on a contract, from February to July 2026, as the main
+                        Feedzai was preparing TFB Growth, a new offering of Transaction Fraud for Banking that new
+                        clients would set up through self-service, due by the end of Q2. I joined on a contract, from February to July 2026, as the main
                         designer for onboarding and activation. My contribution as Senior Product Designer:</p>
 
                     <div class="contribution-chart">
@@ -93,16 +92,16 @@
 
                         <script id="donut-chart-data" type="application/json">
         [
-            { "percentage": 50, "legend": "Design", "color": "#FFA500" },
-            { "percentage": 25, "legend": "Research", "color": "#3CB371" },
-            { "percentage": 25, "legend": "Specs", "color": "#6495ED" }
+            { "percentage": 40, "legend": "Design", "color": "#FFA500" },
+            { "percentage": 40, "legend": "Research", "color": "#3CB371" },
+            { "percentage": 20, "legend": "Management", "color": "#6495ED" }
         ]
     </script>
 
                         <ul>
                             <li>Helped researchers and product managers turn seven onboarding documents into one service
                                 blueprint</li>
-                            <li>Led the design of the three set-up features a bank meets first: SSO, IP allowlist and API
+                            <li>Led the design of the three set-up features a new client meets: SSO, IP allowlist and API
                                 client credentials</li>
                             <li>Designed the Getting Started page that ties the three together</li>
                             <li>Wrote specs with engineering in Kiro, a spec-driven AI tool, from design-system components
@@ -114,7 +113,7 @@
 
             <section id="problem" class="case-section">
                 <h2 class="section-title">Problem & Opportunity</h2>
-                <p>A self-service tier only works if a bank can set itself up. Today, that first step was the most
+                <p>Self-service only works if a new client can set itself up. Today, that first step was the most
                     manual part of the whole journey:</p>
                 <ul>
                     <li><strong>Manual set-up:</strong> Customer success, project managers and the service team collected
@@ -130,14 +129,30 @@
             <section id="discovery" class="case-section">
                 <h2 class="section-title">Discovery & Key Insights</h2>
 
-                <h3>Seven documents as research data</h3>
-                <p>We treated the company's own documents as research. I used AI to pull steps, actors, systems and open
-                    questions out of each source; we then checked every item against the original and with the team that
-                    owned it, and logged conflicts instead of picking a side.</p>
+                <h3>The challenge: one journey, many owners</h3>
+                <p>Onboarding a new client touches ten Feedzai teams and up to seven roles at the client: from sales,
+                    project management, customer success and the service team on one side, to the client's IT, security
+                    and fraud teams on the other. What each team knew lived in seven documents, such as sales hand-overs,
+                    project plans, implementation guides and support runbooks. They were written at different times, for
+                    different readers, and they didn't always agree.</p>
+                <p>A journey map would have shown the client's experience but hidden the work behind it, and that hidden
+                    work was exactly where the 8 hours went. A service blueprint shows both at once: what the client sees
+                    and does, the people and systems behind each step, and every hand-off between them. That made it the
+                    right tool to decide what self-service should take over first, and to give every team the same
+                    picture to decide from.</p>
 
-                <div class="img-container">
-                    <img src="imgs/fz-sources.png" alt="Seven onboarding sources and the roles each one covers">
-                </div>
+                <h3>How we built it</h3>
+                <ul>
+                    <li><strong>Extract:</strong> I used AI to pull steps, actors, systems and open questions out of each
+                        of the seven sources into one table, with every item traced back to its source.</li>
+                    <li><strong>Verify:</strong> we checked each item against the original and in short review sessions
+                        with the team that owned it, logging conflicts instead of picking a side.</li>
+                    <li><strong>Fill the gaps:</strong> interviews with customer success, project managers and the
+                        service team, and walkthroughs of recent onboardings (email threads, calls and support tickets)
+                        showed what actually happens, not only what the documents said.</li>
+                    <li><strong>Align:</strong> working sessions with researchers, product managers and team leads agreed
+                        the stages and marked the open questions that needed a decision.</li>
+                </ul>
 
                 <h3>One service blueprint</h3>
                 <p>The result was a blueprint of 10 stages in 4 phases, from contract to support and expansion, that
@@ -155,8 +170,6 @@
                         setup.</li>
                     <li><strong>Set-up errors were found late, by support:</strong> problems with SSO files only surfaced
                         in tickets.</li>
-                    <li><strong>Secrets and access changes can lock people out:</strong> mistakes here are expensive.
-                    </li>
                 </ul>
             </section>
 
@@ -178,16 +191,8 @@
                     <img src="imgs/fz-sso-claims.png" alt="SSO active, with validated and generated claims">
                 </div>
 
-                <h3>Guardrails where mistakes are expensive</h3>
-                <p>API credentials are listed per use case, from pending to revoked. A secret is shown once, with what
-                    happens if it's lost, and disabling SSO or revoking credentials is typed to confirm.</p>
-                <div class="img-container">
-                    <img src="imgs/fz-api-secret.png" alt="One-time secret with the consequence stated">
-                </div>
-
                 <h3>One status vocabulary</h3>
-                <p>All three features share the same status labels and confirm pattern, so learning one teaches the
-                    others. A guided wizard was logged for Q3, so the team could commit to a Q2 date it could meet.</p>
+                <p>All three features share the same status labels, so learning one teaches the others. A guided wizard was logged for Q3, so the team could commit to a Q2 date it could meet.</p>
                 <div class="img-container">
                     <img src="imgs/fz-statuses.png" alt="Shared status labels across the three features">
                 </div>
@@ -212,13 +217,19 @@
             </section>
 
             <section id="takeaways" class="case-section">
-                <h2 class="section-title">Key Takeaway</h2>
+                <h2 class="section-title">Key Takeaways</h2>
 
                 <div class="takeaways-content">
                     <div class="takeaway-item">
                         <h4>A company's own documents are research data</h4>
                         <p>AI made it fast enough to extract everything from seven sources, and checking each item with
                             its owner made the blueprint something every team trusted.</p>
+                    </div>
+                    <div class="takeaway-item">
+                        <h4>Service blueprints show where the work really is</h4>
+                        <p>Putting the client's steps and the hidden work behind them on one page turned opinions into
+                            decisions: it showed which manual steps self-service should replace first, and what could
+                            wait for a later release.</p>
                     </div>
                 </div>
             </section>
