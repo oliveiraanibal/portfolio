@@ -634,7 +634,7 @@ h2.section-title {
     line-height: 1.1;
     letter-spacing: -0.02em;
     color: #2c3e50;
-    margin: 0 0 .5rem;
+    margin: 0 0 .1rem;
 }
 
 @media (max-width: 768px) {
