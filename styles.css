@@ -642,3 +642,21 @@ h2.section-title {
         font-size: 2.6rem;
     }
 }
+
+/* Home subtitle in the same style as the header "Welcome" */
+.home-intro-title {
+    font-family: 'SUSE', sans-serif;
+    font-size: 2rem;
+    font-weight: 100;
+    line-height: 3rem;
+    letter-spacing: normal;
+    color: #333;
+    margin: 0 0 .25rem;
+}
+
+@media (max-width: 768px) {
+    .home-intro-title {
+        font-size: 2rem;
+        line-height: 2.6rem;
+    }
+}
